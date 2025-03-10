@@ -167,23 +167,27 @@
         padding: 50px 0;
         background-image:url(../img/bg/bg1.webp) ;
         background-position-x: center;
+        width: 100%;
 
         & .service__paragraph {
             text-align: center;
             font-size: 18px;
             font-weight: bold;
-            max-width: 40%;
+            width: 40%;
             margin: 10px;
-            margin-left: 50px;
+            margin-left: min(50px, 8%);
             padding: 10px;
             background-color: #000b;
             border-radius: 20px;
             box-shadow: 2px 2px 10px 2px #000;
             transition: color 0.5s;
-        
+            
+            @media (width <= 700px) {width: 70%;}
+            
             &:hover {
                 color: var(--gold-weak);
             }
+
         }
     }
 }

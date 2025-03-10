@@ -11,7 +11,7 @@
         margin: 10px;
         padding-bottom: 45px;
         box-shadow: 0 0 20px #0009;
-        width: 500px;
+        width: min(500px, 90%);
         background-color: #fff;
         
         & .form__title {

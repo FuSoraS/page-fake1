@@ -11,3 +11,11 @@ First project of a web page I've actually done
 ![image2](img/extra/shedule-location.png)
 
 ![image3](img/extra/client-testimonials.png)
+
+# How to Run 🚀
+Clone this repository: 
+```bash
+git clone https://github.com/FuSoraS/page-fake1.git
+```
+
+Open `index.html` in your browser.

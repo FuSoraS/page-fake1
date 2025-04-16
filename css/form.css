@@ -7,6 +7,10 @@
     background-color: #f4fcf0;
     padding-bottom: 50px;
 
+    & .form__title {
+        font-size: var(--size-h1);
+    }
+    
     & .form__body {
         margin: 10px;
         padding-bottom: 45px;
@@ -14,8 +18,8 @@
         width: min(500px, 90%);
         background-color: #fff;
         
-        & .form__title {
-            font-size: 1.3em;
+        & .form__subtitle{
+            font-size: var(--size-h2);
         }
         & .form__input {
             padding: 5px 10px;

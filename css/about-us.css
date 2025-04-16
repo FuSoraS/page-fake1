@@ -29,11 +29,12 @@
             position: relative;
         }
         & .hero__title {
-            font-size: 2rem;
+            text-align: center;
+            font-size: var(--size-h1);
         }
         & .hero__subtitle {
-            max-width: 300px;
-            font-size: 1.2rem;
+            max-width: 500px;
+            font-size: var(--size-h2);
         }
     }
 }
@@ -46,6 +47,7 @@
     & .about-us__title {
         text-transform: uppercase;
         text-align: center;
+        font-size: var(--size-h2);
     }
     & .about-us__paragraph {
         margin: 5px 50px;

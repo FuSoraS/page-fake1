@@ -32,7 +32,7 @@
             text-transform: uppercase;
             color: #fff;
             font-weight: bold;
-            font-size:  clamp(1rem, 2vw + 1rem, 3rem);
+            font-size: var(--size-h1);
             padding: 0 10px;
         }
         .hero__button {
@@ -84,7 +84,7 @@
 
     & .shedule-location__title {
         text-align: center;
-        font-size: clamp(1rem, 2vw + 1rem, 2em);
+        font-size: var(--size-h2);
         margin: 20px;
     }
     & .shedule-location__conteiner{
@@ -134,7 +134,7 @@
         width: 100%;
 
         & .client-testimonials__title {
-            font-size: 2em;
+            font-size: var(--size-h2);
         }
     }
     & .client-testimonials__conteiner {
@@ -162,7 +162,7 @@
     & .service__title {
         text-transform: uppercase;
         text-align: center;
-        font-size: 2em;
+        font-size: var(--size-h2);
     }
     & .service__conteiner {
         display: flex;

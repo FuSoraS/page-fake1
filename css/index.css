@@ -84,7 +84,7 @@
 
     & .shedule-location__title {
         text-align: center;
-        font-size: 2em;
+        font-size: clamp(1rem, 2vw + 1rem, 2em);
         margin: 20px;
     }
     & .shedule-location__conteiner{
@@ -92,8 +92,17 @@
         justify-content: center;
         flex-wrap: wrap;
 
+        & .shedule__title {
+            font-size: var(--size-h3);
+        }
+        & .shedule__subtitle{
+            font-size: var(--size-h4);
+        }
         & .location{
             margin: 20px;
+        }
+        & .location__title{
+            font-size: var(--size-h3);
         }
         & .shedule__div {
             margin-top: 20px;

@@ -2,6 +2,8 @@
 :root {
     --gold: #7f6c2f;
     --gold-weak: #CDB156;
+    --size-h3: clamp(.5rem, 2vw + 1rem, 1.2rem);
+    --size-h4: clamp(.4rem, 2vw + 1rem, 1rem);
 }
 
 html {

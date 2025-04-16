@@ -35,6 +35,7 @@
         & .hero__subtitle {
             max-width: 500px;
             font-size: var(--size-h2);
+            padding: 0 1rem;
         }
     }
 }

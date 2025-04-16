@@ -32,13 +32,8 @@
             text-transform: uppercase;
             color: #fff;
             font-weight: bold;
-            font-size: 45px;
-            transition: font-size 2s;
-        
-            @media (width <= 600px) {
-                    font-size: 25px;
-                    display: inline;
-            }
+            font-size:  clamp(1rem, 2vw + 1rem, 3rem);
+            padding: 0 10px;
         }
         .hero__button {
             color: #FFF;

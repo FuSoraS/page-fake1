@@ -176,7 +176,7 @@
 
         & .service__paragraph {
             text-align: center;
-            font-size: 18px;
+            font-size: var(--size-p);
             font-weight: bold;
             width: 40%;
             margin: 10px;

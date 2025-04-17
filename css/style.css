@@ -6,6 +6,7 @@
     --size-h2: clamp(1rem, 2vw + 1rem, 2em);
     --size-h3: clamp(.5rem, 2vw + 1rem, 1.2rem);
     --size-h4: clamp(.4rem, 2vw + 1rem, 1rem);
+    --size-p: 1rem;
 }
 
 html {
@@ -116,11 +117,17 @@ body {
         padding: 0 20px;
         @media (width <= 700px) {display: flex; flex-wrap: wrap;}
 
-        & footer__contact {
-            & .contact--title {
-                font-weight: bold;
+        .footer__contact {
+            .footer__contact-us {
+                font-size: var(--size-p);
+
+                &.contact--title {
+                    font-weight: bold;
+                }
             }
+
         }
+
         & .footer__follow-us {
             grid-column: 2;
             text-align: center;
@@ -131,6 +138,7 @@ body {
                 max-width: 40px;
             }
         }
+
         & .footer__logo {
             margin: auto;
 

@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JS -->
     <script src="../js/nav.js" defer></script>
+    <script type="module" src="../web-component/footer-component.js"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/form.css">
+
     <link rel="icon" type="image/webp" href="../img/icons/logo.webp">
     <title>Formulario</title>
 </head>
@@ -62,26 +66,6 @@
         <input type="submit" class="form__submit">
     </form>
 
-    <footer class="footer">
-        <div class="footer__conteiner">
-            <div id="footer__contact">
-            <p class="footer__contact-us contact--title">Contáctanos</p>
-            <p class="footer__contact-us">Teléfono: +56 9 8451 6237</p>
-            <p class="footer__contact-us">Correo Electrónico: info@fitzonegym.com</p>
-            </div>
-            <div class="footer__follow-us">
-                <h3 class="follow-us__title">Síguenos</h3>
-                
-                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="../img/icons/facebook.webp" alt="icono de facebook"></a>
-
-                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="../img/icons/instagram.webp" alt="icono de instagram"></a>
-
-                    <a href="https://x.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="../img/icons/x.webp" alt="icono de x o twitter"></a>
-            </div>
-            <div class="footer__logo">
-                <img class="footer__image" src="../img/icons/logo.webp" alt="logo">
-            </div>
-        </div>
-    </footer>
+    <footer-component></footer-component>
 </body>
 </html>

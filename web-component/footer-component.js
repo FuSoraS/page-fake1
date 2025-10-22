@@ -6,6 +6,9 @@ class FooterComponent extends HTMLElement {
     render() {
 
         const img1 = this.getAttribute('img1') ?? 'img/icons/facebook.webp'
+        const img2 = this.getAttribute('img2') ?? 'img/icons/instagram.webp'
+        const img3 = this.getAttribute('img3') ?? 'img/icons/x.webp'
+        const img4 = this.getAttribute('img4') ?? 'img/icons/logo.webp'
 
         this.innerHTML = `
             <footer class="footer">
@@ -17,12 +20,12 @@ class FooterComponent extends HTMLElement {
             </div>
             <div class="footer__follow-us">
                 <h3 class="follow-us__title">Síguenos</h3>
-                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="/img/icons/facebook.webp" alt="icono de facebook"></a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="/img/icons/instagram.webp" alt="icono de instagram"></a>
-                <a href="https://x.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="/img/icons/x.webp" alt="icono de x o twitter"></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="${img1}" alt="icono de facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="${img2}" alt="icono de instagram"></a>
+                <a href="https://x.com/" target="_blank" rel="noreferrer"><img class="icon__redes" src="${img3}" alt="icono de x o twitter"></a>
             </div>
             <div class="footer__logo">
-                <img class="footer__image" src="/img/icons/logo.webp" alt="logo">
+                <img class="footer__image" src="${img4}" alt="logo">
             </div>
         </div>
     </footer>`

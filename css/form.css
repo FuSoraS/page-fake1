@@ -29,10 +29,15 @@
         }
     }
     & .form__submit {
-        background-color: #000;
+        background-color: #13724a;
         color: #fff;
         margin: 20px;
-        padding: 5px 15px;
+        padding: 8px 18px;
         border-radius: 10px;
+        cursor: no-drop;
+    }
+    
+    &:valid .form__submit {
+        cursor: pointer;
     }
 }
